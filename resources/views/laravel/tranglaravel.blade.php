@@ -2,3 +2,8 @@
 {{ $giatri }}
 <br>
 {!! $giatri2 !!}
+
+<h3>Vòng lặp for</h3>
+@for($i=1; $i<$giatri; $i++ )
+    <h4>Đây là vòng lặp thứ  {{ $i }} </h4>
+@endfor;
